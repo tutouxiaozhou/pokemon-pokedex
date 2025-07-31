@@ -31,27 +31,23 @@ npm error This is an error with npm itself.
 chmod +x build.sh && ./build.sh
 ```
 
-### 2. wrangler.toml 配置错误
+### 2. 构建命令配置错误
 
 **错误信息**:
 ```
-A wrangler.toml file was found but it does not appear to be valid
+Build command failed
 ```
 
 **解决方案**:
-确保 `wrangler.toml` 包含正确的 Pages 配置：
-```toml
-name = "pokemon-pokedex"
-compatibility_date = "2024-01-01"
-pages_build_output_dir = "dist"
-
-[build]
-command = "npm run build"
-
-[build.environment]
-NODE_VERSION = "18"
-NPM_VERSION = "10"
+在 Cloudflare Pages 设置中使用正确的构建命令：
+```bash
+npm ci --legacy-peer-deps --no-audit --no-fund && npm run build
 ```
+
+确保构建设置：
+- 框架预设: Vite
+- 构建输出目录: dist
+- Node.js 版本: 18
 
 ### 3. 依赖版本冲突
 
