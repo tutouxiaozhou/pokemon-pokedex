@@ -11,13 +11,13 @@
 构建命令: npm ci --legacy-peer-deps --no-audit --no-fund && npm run build
 构建输出目录: dist
 根目录: /
-Node.js 版本: 18
+Node.js 版本: 20
 ```
 
 ### 环境变量
 
 ```
-NODE_VERSION=18
+NODE_VERSION=20
 NPM_VERSION=10
 NODE_OPTIONS=--max-old-space-size=4096
 CI=true

@@ -35,10 +35,10 @@
    ```
 
 5. **高级设置**
-   - Node.js 版本: `18`
+   - Node.js 版本: `20`
    - 环境变量:
      ```
-     NODE_VERSION=18
+     NODE_VERSION=20
      NPM_VERSION=10
      NODE_OPTIONS=--max-old-space-size=4096
      CI=true

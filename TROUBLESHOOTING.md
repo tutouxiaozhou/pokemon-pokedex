@@ -17,10 +17,10 @@ npm error This is an error with npm itself.
 #### 方法一：更新 Cloudflare Pages 构建设置
 在 Cloudflare Pages 项目设置中：
 - **构建命令**: `npm ci --legacy-peer-deps --no-audit --no-fund && npm run build`
-- **Node.js 版本**: `18`
+- **Node.js 版本**: `20`
 - **环境变量**:
   ```
-  NODE_VERSION=18
+  NODE_VERSION=20
   NPM_VERSION=10
   NODE_OPTIONS=--max-old-space-size=4096
   ```
