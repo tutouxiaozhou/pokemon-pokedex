@@ -1,0 +1,20 @@
+{
+  "path": "/Users/zhoujingtian/Desktop/aiProject/pokemon-pokedex/dist",
+  "desc": "这是一个宝可梦图鉴前端项目，具有搜索、收藏、对比等功能，包含宝可梦详细信息展示、属性对比、收藏管理等特性",
+  "id": "7cac326752ee4a3a95da65b08a70d35c",
+  "data": {
+    "spaceKey": "7cac326752ee4a3a95da65b08a70d35c",
+    "connections": {
+      "webIDE": "https://7cac326752ee4a3a95da65b08a70d35c.ap-singapore.cloudstudio.club",
+      "preview": "https://7cac326752ee4a3a95da65b08a70d35c--{port}.ap-singapore.cloudstudio.club",
+      "api": "https://7cac326752ee4a3a95da65b08a70d35c--api.ap-singapore.cloudstudio.club",
+      "pty": "https://7cac326752ee4a3a95da65b08a70d35c--pty.ap-singapore.cloudstudio.club"
+    }
+  },
+  "config": {
+    "api": "https://7cac326752ee4a3a95da65b08a70d35c--api.ap-singapore.cloudstudio.club",
+    "pty": "https://7cac326752ee4a3a95da65b08a70d35c--pty.ap-singapore.cloudstudio.club",
+    "region": "ap-shanghai",
+    "spaceKey": "7cac326752ee4a3a95da65b08a70d35c"
+  }
+}
