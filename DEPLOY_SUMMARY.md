@@ -8,7 +8,7 @@
 项目名称: pokemon-pokedex
 生产分支: main
 框架预设: Vite
-构建命令: npm ci --legacy-peer-deps --no-audit --no-fund && npm run build
+构建命令: npm install --legacy-peer-deps --no-audit --no-fund --maxsockets=1 && npm run build
 构建输出目录: dist
 根目录: /
 Node.js 版本: 20
