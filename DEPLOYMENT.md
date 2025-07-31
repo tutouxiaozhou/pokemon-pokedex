@@ -29,15 +29,17 @@
    项目名称: pokemon-pokedex
    生产分支: main
    框架预设: Vite
-   构建命令: npm run build
+   构建命令: npm ci --legacy-peer-deps && npm run build
    构建输出目录: dist
    ```
 
 5. **高级设置**
-   - Node.js 版本: `18` 或 `20`
-   - 环境变量（如果需要）:
+   - Node.js 版本: `18`
+   - 环境变量:
      ```
      NODE_VERSION=18
+     NPM_VERSION=10
+     NODE_OPTIONS=--max-old-space-size=4096
      ```
 
 6. **部署**
