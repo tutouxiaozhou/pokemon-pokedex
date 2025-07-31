@@ -1,0 +1,5 @@
+# SPA 路由重定向
+/*    /index.html   200
+
+# API 代理（如果需要）
+# /api/*  https://pokeapi.co/api/v2/:splat  200
