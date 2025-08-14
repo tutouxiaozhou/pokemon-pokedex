@@ -258,9 +258,6 @@ const POKEMON_NAME_MAP: Record<string, string> = {
     懒人獭: "slakoth",
     过动猿: "vigoroth",
     请假王: "slaking",
-    土狼犬: "poochyena",
-    大狼犬: "mightyena",
-    // 添加更多常见宝可梦
     盔甲鸟: "skarmory",
     戴鲁比: "houndour",
     黑鲁加: "houndoom",
@@ -271,11 +268,6 @@ const POKEMON_NAME_MAP: Record<string, string> = {
     图图犬: "smeargle",
     无畏小子: "tyrogue",
     战舞郎: "hitmontop",
-    迷唇娃: "smoochum",
-    电击怪: "elekid",
-    鸭嘴宝宝: "magby",
-    大奶罐: "miltank",
-    幸福蛋: "blissey",
 };
 
 // 属性类型中英文映射
