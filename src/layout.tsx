@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { Search, Heart, GitCompare, Home, User } from "lucide-react";
+import { Search, Heart, GitCompare, Home, User, Users } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
@@ -65,6 +65,13 @@ export default function Layout({ children }: LayoutProps) {
                         >
                             <GitCompare className="w-4 h-4" />
                             <span>对比</span>
+                        </Link>
+                        <Link
+                            to="/team-builder"
+                            className="flex items-center space-x-1 text-gray-600 hover:text-red-600 transition-colors"
+                        >
+                            <Users className="w-4 h-4" />
+                            <span>队伍构建</span>
                         </Link>
                     </nav>
 
